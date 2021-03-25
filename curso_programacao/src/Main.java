@@ -21,7 +21,7 @@ public class Main {
 		System.out.printf("RESULTADO =  %.2f  METROS%n", x);
 		
 	
-		System.out.printf("%s tem %1qj  d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+		System.out.printf("%s tem %1  d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 	}
 
 }

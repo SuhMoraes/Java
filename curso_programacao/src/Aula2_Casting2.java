@@ -1,5 +1,5 @@
 
-public class Aula2_Casting {
+public class Aula2_Casting2 {
 
 	public static void main(String[] args) {
 		int a, b; 

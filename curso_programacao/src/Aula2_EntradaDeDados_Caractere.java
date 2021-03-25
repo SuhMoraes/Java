@@ -6,6 +6,7 @@ public class Aula2_EntradaDeDados_Caractere {
 Scanner sc = new Scanner(System.in);
 		
 		char x;
+		
 		x = sc.next().charAt(0);
 		
 		System.out.println("Você diigitou: " + x);
