@@ -1,0 +1,46 @@
+package aula03;
+
+import java.util.Scanner;
+
+public class aula06_alterandooOValorDaVariavel {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite o valor do produto: ");
+		Double valorProduto = scanner.nextDouble();
+		
+		System.out.println("Digite a forma de pagamento: [1 = à vista / 2 = a prazo ] ");
+		Integer formaPagamento = scanner.nextInt();
+		
+		Boolean pagamentoAVista = formaPagamento.equals(1);
+		
+		Double juros = 0.0;
+		
+		Double desconto = 0.0;
+		
+		if(pagamentoAVista) {
+			desconto = 5.0;
+			
+		} else {
+			juros = 10.0;
+		}
+		
+		Double acrescimo = valorProduto * juros / 100;
+		
+		Double descontoProduto = valorProduto * desconto / 100;
+		
+		Double valorTotalAVista = valorProduto - descontoProduto;
+		
+		Double valorTotalJuros =  acrescimo + valorProduto;
+		
+		System.out.println("Valor total para pagamento a prazo: " + valorTotalJuros);
+		
+		System.out.println("Valor total para pagamento à vista: " + valorTotalAVista);
+		
+		
+		scanner.close();
+
+	}
+
+}

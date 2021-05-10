@@ -1,0 +1,14 @@
+package aula03;
+
+public class calculoQuarado {
+
+	public static void main(String[] args) {
+		
+		Integer quadrado = 4;
+		
+		Integer resultado = quadrado * quadrado;
+		
+		System.out.println(resultado);
+	}
+
+}

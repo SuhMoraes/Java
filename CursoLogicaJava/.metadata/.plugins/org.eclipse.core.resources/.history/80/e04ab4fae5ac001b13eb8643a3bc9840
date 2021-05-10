@@ -1,0 +1,10 @@
+package aula03;
+
+public class Aula03_TipoTexto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
