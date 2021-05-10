@@ -1,6 +1,6 @@
-package aula1_estrutura_sequencial;
+package aula03;
 
-public class ExpressoesAritimeticas00 {
+public class contantes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
