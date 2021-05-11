@@ -2,7 +2,7 @@ package aula03;
 
 import java.util.Scanner;
 
-public class contantes {
+public class Aula07_Constantes {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

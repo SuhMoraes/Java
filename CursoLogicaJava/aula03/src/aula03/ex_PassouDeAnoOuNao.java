@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex_PassouDeAnoOuNao {
 
+	static final Double NOTA_FINAL = 7.0;
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
@@ -28,13 +30,16 @@ public class ex_PassouDeAnoOuNao {
 		Double nota =  (nota1 + nota2 + nota3 + nota4)/ 4;
 		
 		
-		Boolean passouDeAno = nota >= 7;
+		Boolean passouDeAno = nota >= NOTA_FINAL;
 		
 		if(passouDeAno) {
 			System.out.println("Parabéns! Você passou de ano!");
 		} else {
 			System.out.println("Precisa estudar mais, por isso foi REPROVADO!");
 		}
+		
+		scanner.close();
 	}
-
+		
+	
 }
