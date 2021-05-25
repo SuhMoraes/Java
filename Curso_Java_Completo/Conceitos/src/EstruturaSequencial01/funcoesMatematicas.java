@@ -9,7 +9,7 @@ public class funcoesMatematicas {
 			double z = -5.0;
 			double A, B, C;
 			
-			A = Math.sqrt(x);
+			A = Math.sqrt(x); // Variável A recebe a raiz quadrada de x 
 			B = Math.sqrt(y);
 			C = Math.sqrt(25.0);
 			
@@ -18,7 +18,7 @@ public class funcoesMatematicas {
 			System.out.println("Raiz quadrada de 25 = " + C);
 			System.out.println("=======================================");
 			
-			A = Math.pow(x, y);
+			A = Math.pow(x, y);// Variável A recebe o resultado de x elevado a y
 			B = Math.pow(x, 2.0);
 			C = Math.pow(5.0, 2.0);
 			
@@ -27,7 +27,7 @@ public class funcoesMatematicas {
 			System.out.println("5 elevado ao quadrado = " + C);
 			System.out.println("=======================================");
 			
-			A = Math.abs(y);
+			A = Math.abs(y); // Variável A recebe o valor absoluto de x
 			B = Math.abs(z);
 			
 			System.out.println("Valor absoluto de " + y + " = " + A);
