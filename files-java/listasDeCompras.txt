@@ -1,0 +1,17 @@
+Arroz;
+Feijão;
+Óleo de soja;
+Sal;
+Açúcar;
+Café;
+Molho de tomate;
+Macarrão;
+Milho;
+Farinha de trigo;
+Farinha de mandioca;
+Leite;
+Manteiga;
+Chá;
+Carnes;
+Peixes;
+Ovos.
