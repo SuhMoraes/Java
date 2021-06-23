@@ -89,22 +89,22 @@ main section table, main section table th, main section table td {
 
 main section table tbody tr td a {
 	text-decoration: none;
-	color: #80aebd;
+	color: #7695c7;
 }
 
 main section table tbody tr td a:hover {
 	text-decoration: underline;
-	color: lightblue;
+	color: #bca3f1;
 }
 	
 main section table tbody tr td form button {
 	border: none;
 	padding: 10px 15px;
-	background-color: #bd8088;
+	background-color: red;
 	color: #fff;
 }
 
 main section table tbody tr td form button:hover {
-	background-color: #e6adb7;
+	background-color: rgb(247, 43, 6);
 	cursor: pointer;		
 }

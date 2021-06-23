@@ -36,8 +36,7 @@
 				th:object="${contato}" th:method="${contato.novo} ? post : put">
 				
 				<div th:if="${!contato.novo}">
-					<label>Código: </label> 
-					
+					<label>Código: </label> 					
 					<input th:field="*{id}" readonly="readonly" />
 				</div>
 				
